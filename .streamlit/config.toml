@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#ff4b4b"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#fafafa"
+font = "sans serif"
+
+# This gives it a really clean, modern dark mode look. 
+# You can change 'backgroundColor' to "#ffffff" for light mode!
