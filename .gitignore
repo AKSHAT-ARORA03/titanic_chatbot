@@ -1,37 +1,22 @@
-# Environment variables (contains secrets)
-.env
-
-# Python cache files
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Virtual environment
+# Python Virtual Environments
 venv/
 env/
-ENV/
-.venv
 
-# IDE settings
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
 
-# Generated plots
+# 🚨 Security: Never commit Streamlit Secrets!
+.streamlit/secrets.toml
+.streamlit/*.toml
+
+# 🚨 Security: Ignore old env files just in case
+.env
+
+# Dynamically generated files (created by the AI agent)
 plot.png
-*.png
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
