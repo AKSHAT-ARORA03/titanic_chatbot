@@ -1,8 +1,8 @@
 streamlit==1.39.0
 pandas==2.2.2
-langchain==0.3.0
-langchain-google-genai==2.0.0
-langchain-experimental==0.3.0
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-experimental>=0.3.0
 Pillow==10.4.0
 certifi==2024.8.30
 matplotlib==3.9.0
